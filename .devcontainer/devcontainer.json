@@ -1,0 +1,15 @@
+{
+    "name": "appscript-dev",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "wordpress",
+    "workspaceFolder": "/",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "eamodio.gitlens"
+            ]
+        }
+    }
+}
