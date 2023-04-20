@@ -1,7 +1,7 @@
 {
     "name": "appscript-dev",
     "dockerComposeFile": "docker-compose.yaml",
-    "service": "wordpress",
+    "service": "typescript-node",
     "workspaceFolder": "/",
     "shutdownAction": "stopCompose",
     "customizations": {
@@ -11,5 +11,6 @@
                 "eamodio.gitlens"
             ]
         }
-    }
+    },
+    "postCreateCommand": "npm install -g @google/clasp; npm i -S @types/google-apps-script"
 }

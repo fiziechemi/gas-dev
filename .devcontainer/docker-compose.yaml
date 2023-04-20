@@ -2,17 +2,16 @@ version: '3.8'
 
 services:
 
-  node:
-    container_name: node
-    image: node:latest
+  typescript-node:
+    container_name: typescript-node
+    image: mcr.microsoft.com/devcontainers/typescript-node
     restart: always
     ports:
       - "8888:8888"
     volumes:
-      - node_data:/home/node/app
+      - typescript_node_data:/home/node/app
     environment:
       - NODE_ENV=development
-    command: "npm install -g @google/clasp; npm i -S @types/google-apps-script"
 
 volumes:
-  node_data:
+  typescript_node_data:
