@@ -19,6 +19,4 @@ To use this repository, follow the steps below:
 1. Create new repository by clicking the Use this template button above.
 2. Open your duplicated repository in VSCode using the command ">Dev Containers: Clone Repositories in Named Container Volume". You can name your container for easy referencing.
 
-## How to include plugin or theme from other repositories
-
 > Note: This repository is intended for development purposes only. Do not use it in production environments.
