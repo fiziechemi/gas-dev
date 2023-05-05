@@ -1,5 +1,5 @@
 {
-    "name": "appscript-dev",
+    "name": "gas-dev",
     "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
